@@ -1,2 +1,5 @@
 //your JS code here. If required.
-document.querySelector("body").innerText="DOM load succes"
+window.onload=(event)=>{
+	document.querySelector("body").innerText="DOM load succes"
+}
+
